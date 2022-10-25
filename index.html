@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body id="body">
+    <header class="main-header">
+      <div id="main-nav" class="container responsive">
+        <a href="#" class="main-header__logo">MovieApp</a>
+        <nav class="main-nav">
+          <ul class="main-nav__items">
+            <li class="main-nav__item">
+              <a href="#">Filmler</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#">Diziler</a>
+            </li>
+            <li class="main-nav__item main-nav__item--login">
+              <a class="btn btn-secondary" href="#">Login</a>
+            </li>
+            <li class="main-nav__item">
+              <a href="#" onclick="displayMenu()">
+                <i class="fa-solid fa-bars"></i
+              ></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="showcase">
+        <div class="content">
+          <h2>Welcome</h2>
+          <p>Millions of movies,TV shows and people to discover.Explore now.</p>
+        </div>
+      </section>
+      <section id="how-it-works">
+        <div class="container">
+          <div class="row">
+            <h2 class="section-title">How it works?</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit,
+              accusamus?
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-3">
+              <span class="material-symbols-outlined"> how_to_reg </span>
+              <h3>Register</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                rem quasi ratione hic architecto labore.
+              </p>
+            </div>
+            <div class="col-3">
+              <span class="material-symbols-outlined"> library_add_check </span>
+              <h3>Choose a plan</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure
+                deleniti pariatur dolorum sint nobis eaque.
+              </p>
+            </div>
+            <div class="col-3">
+              <span class="material-symbols-outlined">
+                sentiment_satisfied
+              </span>
+              <h3>Enjoy movify</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                quae harum dolore ex facere aliquam!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="features">
+        <div class="row">
+          <div class="col-2 features_left"></div>
+          <div class="col-2 features_right">
+            <h3>Watch all Movies & TV Shows once they get released!</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+              beatae ipsa aliquid laboriosam repudiandae voluptatibus sapiente
+              quis. Provident, numquam ex. Deleniti consectetur repudiandae
+              cumque nulla, ullam dolores. Ratione, impedit odit!
+            </p>
+            <a class="btn btn-secondary" href="#">View Features</a>
+          </div>
+        </div>
+      </section>
+      <section id="plans">
+        <h2 class="section-title">Become a Premium Member</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 plan">
+              <div class="inner-plan">
+                <h3>Free</h3>
+                <h4>0/month</h4>
+                <ul class="plan_features">
+                  <li>HD available</li>
+                  <li>Unlimited Movies and TV shows</li>
+                  <li>Watch on your phone & tablet</li>
+                  <li>Download and watch offline</li>
+                  <li>Screens you can watch</li>
+                  <li>First Month Free</li>
+                </ul>
+                <button class="btn btn-primary">Choose Plan</button>
+              </div>
+            </div>
+            <div class="col-3 plan">
+              <div class="inner-plan recommended_plan">
+                <h3 id="plan_badge">Recommended Plan</h3>
+                <h3>Basic</h3>
+                <h4>$9.99/month</h4>
+                <ul class="plan_features">
+                  <li>HD available</li>
+                  <li>Unlimited Movies and TV shows</li>
+                  <li>Watch on your phone & tablet</li>
+                  <li>Download and watch offline</li>
+                  <li>Screens you can watch</li>
+                  <li>First Month Free</li>
+                </ul>
+                <button class="btn btn-primary">Choose Plan</button>
+              </div>
+            </div>
+            <div class="col-3 plan">
+              <div class="inner-plan">
+                <h3>Premium</h3>
+                <h4>$19.99/month</h4>
+                <ul class="plan_features">
+                  <li>HD available</li>
+                  <li>Unlimited Movies and TV shows</li>
+                  <li>Watch on your phone & tablet</li>
+                  <li>Download and watch offline</li>
+                  <li>Screens you can watch</li>
+                  <li>First Month Free</li>
+                </ul>
+                <button class="btn btn-primary">Choose Plan</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="counters">
+        <div class="row counter">
+          <div class="col-3">
+            <span class="counter__item">546</span> <br />
+            <h4>Movies</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter__item">657</span> <br />
+            <h4>TV shows</h4>
+          </div>
+          <div class="col-3">
+            <span class="counter__item">821</span> <br />
+            <h4>Users</h4>
+          </div>
+        </div>
+      </section>
+      <section id="movies">
+        <h2 class="section-title">Latest Movies & TV shows</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-3 card-container">
+              <div class="card">
+                <img class="card-image img-fluid" src="img/img-10.jpg" alt="" />
+                <div class="card-body">
+                  <h3>The Lord of the Rings: The Fellowship of the Ring</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolor consectetur accusamus a inventore laborum mollitia!
+                  </p>
+                  <button class="btn btn-primary">Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img class="card-image img-fluid" src="img/img-11.jpg" alt="" />
+                <div class="card-body">
+                  <h3>The Lord of the Rings: The Two Towers</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolor consectetur accusamus a inventore laborum mollitia!
+                  </p>
+                  <button class="btn btn-primary">Details</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-3 card-container">
+              <div class="card">
+                <img class="card-image img-fluid" src="img/img-12.jpg" alt="" />
+                <div class="card-body">
+                  <h3>The Lord of the Rings: The Return of the King</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolor consectetur accusamus a inventore laborum mollitia!
+                  </p>
+                  <button class="btn btn-primary">Details</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <ul id="footer-links">
+              <li><a href="">About</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Forum</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul id="social-links">
+              <li><a href="" class="fa-brands fa-facebook"></a></li>
+              <li><a href="" class="fa-brands fa-twitter"></a></li>
+              <li><a href="" class="fa-brands fa-instagram"></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <a href="#body" id="backtotop"
+      ><i class="fa-solid fa-circle-chevron-up"></i
+    ></a>
+    <script>
+      function displayMenu() {
+        var link = document.getElementById("main-nav");
+        link.classList.toggle("responsive");
+      }
+    </script>
+  </body>
+</html>
