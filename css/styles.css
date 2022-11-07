@@ -58,6 +58,7 @@ main {
 .main-header {
   background-color: #ff8c32;
   padding: 0.8rem 1.6rem;
+  opacity: 0.7;
 }
 .main-nav {
   display: inline-block;
@@ -208,7 +209,7 @@ main {
   color: #213745;
 }
 .counter {
-  background: linear-gradient(to bottom, rgb(255, 125, 26), rgb(255, 140, 50));
+  background: linear-gradient(to right, rgb(255, 178, 118), rgb(250, 118, 17));
   text-align: center;
   padding: 5rem;
 }
@@ -251,6 +252,12 @@ footer {
 footer a {
   text-decoration: none;
   color: #fff;
+}
+footer #footer-links a {
+  margin-right: 25px;
+}
+footer #footer-links a:hover {
+  border-bottom: 3px solid #ff8c32;
 }
 footer ul {
   margin: 0;
